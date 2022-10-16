@@ -4,8 +4,7 @@ HOST_ARCH="linux-x86_64"
 
 cd opusfile
 ./autogen.sh
-# ./configure --host=arm-androideabi-linux --enable-float-approx --disable-doc --disable-extra-programs
-FLAGS="--enable_assertions=yes --enable_http=yes --enable_float=yes --disable-examples --disable-doc"
+FLAGS="--enable_assertions --enable_http --enable_float --disable-examples --disable-doc"
 
 case "$1" in
     clean)
