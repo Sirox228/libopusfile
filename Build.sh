@@ -4,7 +4,7 @@ HOST_ARCH="linux-x86_64"
 
 cd opusfile
 ./autogen.sh
-FLAGS="--enable_assertions --enable_http --enable_float --disable-examples --disable-doc"
+FLAGS="--enable-assertions=yes --enable-http=yes --enable-float=yes --disable-examples --disable-doc"
 
 case "$1" in
     clean)
