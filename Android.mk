@@ -13,7 +13,8 @@ LOCAL_CFLAGS := -DHAVE_CONFIG_H \
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/opusfile \
     $(LOCAL_PATH)/opusfile/include \
-    $(LOCAL_PATH)/opusfile/src
+    $(LOCAL_PATH)/opusfile/src \
+    $(LOCAL_PATH)/external
 
 LOCAL_SRC_FILES := \
     $(LOCAL_PATH)/opusfile/src/http.c \
