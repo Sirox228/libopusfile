@@ -16,7 +16,12 @@ LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/opusfile/src
 
 LOCAL_SRC_FILES := \
-    $(LOCAL_PATH)/opusfile/src/
+    $(LOCAL_PATH)/opusfile/src/http.c \
+    $(LOCAL_PATH)/opusfile/src/info.c \
+    $(LOCAL_PATH)/opusfile/src/internal.c \
+    $(LOCAL_PATH)/opusfile/src/opusfile.c \
+    $(LOCAL_PATH)/opusfile/src/stream.c \
+    $(LOCAL_PATH)/opusfile/src/wincerts.c
 
 ifeq ($(strip $(TARGET_ARCH)),arm)
     LOCAL_CFLAGS += -DCPU_ARM -D_ARM_ASSEM_
