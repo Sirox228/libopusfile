@@ -18,7 +18,7 @@ jobs:
       - name: Build
         run: |
           sudo chmod -R 777 *
-          ./Build.sh armeabi-v7a
+          ./Build.sh
           
       - uses: actions/upload-artifact@v2
         with:
