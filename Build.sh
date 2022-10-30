@@ -6,6 +6,8 @@ FLAGS="--enable-assertions=yes --disable-examples --disable-doc"
 ./configure $FLAGS
 cd ../
 
+ls /usr/local/lib
+
 PKG_CONFIG_PATH=includes
 
 echo "starting"
