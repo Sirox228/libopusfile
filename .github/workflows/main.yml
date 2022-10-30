@@ -39,3 +39,8 @@ jobs:
         with:
           name: opusfile-x86_64
           path: obj/local/x86_64/libopusfile.a
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: debug
+          path: opusfile
