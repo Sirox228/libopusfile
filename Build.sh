@@ -1,6 +1,6 @@
 NDK=${ANDROID_NDK_HOME}
 
-cd libopusfile
+cd opusfile
 ./autogen.sh
 FLAGS="--enable-assertions=yes --disable-examples --disable-doc"
 ./configure $FLAGS
