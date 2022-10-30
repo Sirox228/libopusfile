@@ -21,8 +21,7 @@ LOCAL_SRC_FILES := \
     $(LOCAL_PATH)/opusfile/src/info.c \
     $(LOCAL_PATH)/opusfile/src/internal.c \
     $(LOCAL_PATH)/opusfile/src/opusfile.c \
-    $(LOCAL_PATH)/opusfile/src/stream.c \
-    $(LOCAL_PATH)/opusfile/src/wincerts.c
+    $(LOCAL_PATH)/opusfile/src/stream.c
 
 ifeq ($(strip $(TARGET_ARCH)),arm)
     LOCAL_CFLAGS += -DCPU_ARM -D_ARM_ASSEM_
