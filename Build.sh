@@ -6,7 +6,7 @@ FLAGS="--enable-assertions=yes --disable-examples --disable-doc"
 ./configure $FLAGS
 cd ../
 
-echo ${PKG_CONFIG_PATH}
+PKG_CONFIG_PATH=includes
 
 echo "starting"
 
